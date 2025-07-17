@@ -18,8 +18,8 @@ class Vector2D:
             y (float): Composante y
         """
         # Initialisation des attributs privés avec validation
-        self.x = x  # Utilise le setter pour validation
-        self.y = y  # Utilise le setter pour validation
+        self.__x = x  # Utilise le setter pour validation
+        self.__y = y  # Utilise le setter pour validation
     
     @property
     def x(self):

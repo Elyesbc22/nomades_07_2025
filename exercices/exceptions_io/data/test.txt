@@ -1,0 +1,7 @@
+Bonjour le monde !
+Ceci est un fichier de test.
+Il contient plusieurs lignes.
+Chaque ligne peut être utilisée pour tester la lecture de fichiers.
+Ce fichier contient des caractères spéciaux : éàèùç
+Et même des emojis si supportés : 🐍🔥
+Fin du fichier de test.

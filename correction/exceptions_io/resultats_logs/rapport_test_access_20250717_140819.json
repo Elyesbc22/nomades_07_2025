@@ -1,0 +1,36 @@
+{
+  "fichier": "test_access.log",
+  "taille_fichier": 635,
+  "lignes_totales": 8,
+  "entrees_traitees": 8,
+  "erreurs_parsing": 0,
+  "statistiques": {
+    "total_entrees": 8,
+    "par_niveau": {
+      "DEBUG": 4,
+      "WARNING": 3,
+      "ERROR": 1
+    },
+    "ips_uniques": 5,
+    "erreurs_total": 1,
+    "periode": {
+      "debut": "2025-07-17",
+      "fin": "2025-07-17",
+      "jours": 1
+    },
+    "top_erreurs": {
+      "GET /error - Status 500": 1
+    },
+    "top_urls": {
+      "/index.html": 2,
+      "/api/users": 1,
+      "/login": 1,
+      "/admin": 1,
+      "/products": 1,
+      "/non-existent": 1,
+      "/error": 1
+    },
+    "top_sources": {}
+  },
+  "timestamp_analyse": "2025-07-17T14:08:19.549032"
+}
