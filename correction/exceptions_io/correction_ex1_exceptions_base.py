@@ -228,10 +228,6 @@ def lire_fichier_avec_gestion_erreurs(nom_fichier):
     else:
         # Succès - aucune exception levée
         return (True, contenu)
-    finally:
-        # Cette section s'exécute toujours
-        print(f"Tentative de lecture du fichier '{nom_fichier}' terminée")
-
 
 def gestionnaire_exceptions_complete():
     """

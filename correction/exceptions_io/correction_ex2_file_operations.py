@@ -8,7 +8,6 @@ Cette correction montre les solutions complètes pour l'exercice 2.
 import os
 from pathlib import Path
 
-
 def lire_fichier_securise(chemin_fichier):
     """
     Lit le contenu d'un fichier de manière sécurisée.
@@ -20,7 +19,7 @@ def lire_fichier_securise(chemin_fichier):
         tuple: (succès: bool, contenu: str ou message d'erreur: str)
     """
     try:
-        with open(chemin_fichier, 'r', encoding='utf-8') as fichier:
+        with open(chemin_fichier, 'r') as fichier:
             contenu = fichier.read()
         return (True, contenu)
     except FileNotFoundError:
@@ -210,7 +209,7 @@ def gestionnaire_fichiers_interactif():
         
         try:
             choix = input("\nVotre choix (1-6) : ").strip()
-            
+
             if choix == '1':
                 chemin = input("Chemin du fichier à lire : ")
                 succes, contenu = lire_fichier_securise(chemin)
