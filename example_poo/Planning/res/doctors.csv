@@ -1,0 +1,21 @@
+name,activity_percent,diploma,position,days_off,last_shift,number_of_holidays,weekend_days
+Alice Morel,0.94,FMH,intern,0,evening,1,2
+Marc Dubois,0.92,non FMH,intern,2,afternoon,1,0
+Sophie Lemoine,0.52,non FMH,intern,3,morning,1,1
+Julien Roux,0.97,non FMH,intern,1,night,0,0
+Claire Bernard,0.72,FMH,chef de clinique,3,evening,0,0
+Hugo Martin,0.62,non FMH,chef de clinique,3,night,1,0
+Émilie Girard,0.72,FMH,intern,0,night,0,2
+Thomas Leroy,0.81,non FMH,chef de clinique,1,afternoon,0,0
+Laura Fontaine,0.84,FMH,chef de clinique,0,afternoon,1,0
+Antoine Lefevre,0.94,non FMH,chef de clinique,3,morning,0,2
+Nina Dupont,0.93,non FMH,intern,2,afternoon,1,2
+Paul Caron,0.63,non FMH,intern,3,morning,0,1
+Lucie Petit,0.74,FMH,chef de clinique,1,evening,1,0
+Maxime Noel,0.82,FMH,chef de clinique,1,night,0,2
+Camille Henry,0.69,non FMH,intern,2,evening,1,1
+Romain Giraud,0.87,FMH,chef de clinique,2,morning,2,0
+Julie Meunier,0.91,FMH,intern,3,evening,1,1
+Benoît Pascal,0.92,non FMH,intern,3,noon,0,2
+Manon Riviere,0.75,non FMH,chef de clinique,0,night,1,1
+Quentin Blin,0.74,non FMH,intern,3,night,1,2

@@ -1,3 +1,4 @@
+@dataclass
 class Doctor:
     def __init__(self, name:str, diploma: str, activity_percentage: float, max_day_streak: int = 6, current_day_streak: int = 0):
         """initialise un medecin
@@ -15,12 +16,19 @@ class Doctor:
         self.activity_percentage = activity_percentage
         self.max_day_streak = max_day_streak
         self.current_day_streak = current_day_streak
-        
+    
     def max_streak_reached(self):
         return self.current_day_streak == self.max_day_streak
     
+    @classmethod
+    def smth(cls, a):
+        return cls(name, str, ...)
+        
+    
     
 janine = Doctor("Janine", "UNIGE Psychiatrie", 1)
+
+janine.max_streak_reached()
 
 doctors = []
 
